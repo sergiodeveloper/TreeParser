@@ -1,0 +1,20 @@
+
+
+Casa (
+	Banheiro (
+		Cor: azul,
+		Privada, Armário
+	)
+	Cozinha (
+		Cor: branco,
+		Pia (
+			Tamanho: médio,
+			Panela (
+				Cor: rosa
+			)
+		)
+		Fogão
+	)
+)
+
+
