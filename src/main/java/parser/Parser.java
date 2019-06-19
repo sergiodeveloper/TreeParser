@@ -4,10 +4,14 @@ import java.text.ParseException;
 
 import sequencepattern.pattern.Pattern;
 
-public interface Parser<FromType, ToType> {
+/**
+ * @param <F> From type
+ * @param <T> To type
+ */
+public interface Parser<F, T> {
 
-	Pattern<FromType> getPattern();
+	Pattern<F> getPattern();
 
-	ToType parse(ParseableList<FromType, ToType> list, int offset) throws ParseException;
+	T parse(ParseableList<F, T> list, int offset) throws ParseException;
 
 }
